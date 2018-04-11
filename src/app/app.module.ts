@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-import {CommonService} from './common.service';
+import { CommonService } from './common.service';
 
 
 @NgModule({
@@ -14,7 +14,7 @@ import {CommonService} from './common.service';
     AppComponent
   ],
   imports: [
-    BrowserModule,HttpModule,FormsModule,
+    BrowserModule, HttpModule, FormsModule,
   ],
   providers: [CommonService],
   bootstrap: [AppComponent]
